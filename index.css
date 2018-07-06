@@ -1,0 +1,64 @@
+body,html{
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+.element{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: "Segoe UI", sans-serif;
+	margin: 10px 0px;
+	padding: 5px 0px;
+	font-size: 25px;
+	font-weight: 100;
+}
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.container-for-take{
+	width: 100%;
+	height: auto;
+	padding: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.take-button{
+	width: 80%;
+	height: auto;
+	padding: 10px 0px;
+	border: 1px solid  #FFA500;
+	background: white;
+	color: black;
+	border-radius: 10px;
+	outline: none;
+	font-family: "Segoe UI", monospace;
+	letter-spacing: 1px;
+}
+input{ 
+	width: 80%;
+	margin: 20px 9%;
+	padding: 10px 0px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	border: 1px solid gray;
+	outline: none;
+	text-align: center;
+ }
+ .show{
+ 	width: 50%;
+ 	height: auto;
+ 	padding: 10px 0px;
+ 	margin-top: 20px;
+ 	border: 1px solid #00FF00;
+ 	background: white;
+ 	outline: none;
+ 	border-radius: 10px
+ }
